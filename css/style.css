@@ -17,13 +17,14 @@
 
 
 #index-banner {
-    min-height: 420px;
+    min-height: 320px;
     max-height: 864px;
     position: relative;
     background-color: #2196F3;
 }
 
-#nav_f{
+#nav_f {
+    border-bottom: 2px solid white;
     box-shadow: none !important; 
     -webkit-box-shadow:none !important;
 }
@@ -44,6 +45,10 @@
     font-weight: 100;
     padding: 0;
     letter-spacing: 7px;
+}
+
+#logo-container img {
+    padding-top: 5px;
 }
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}

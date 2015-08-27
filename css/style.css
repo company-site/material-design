@@ -268,3 +268,20 @@ nav a.button-collapse {
 footer.page-footer {
     margin-top: 0px !important;
 }
+
+.promo > i { 
+    transition: all .2s ease-in-out; 
+}
+
+.promo > i:hover {
+    transform: scale(1.1); 
+}
+
+#contact ul li a {
+    padding: 4px 5px;
+    transition: background-color 0.3s;
+}
+
+#contact ul li a:hover,  #contact ul li.active a {
+    background-color: rgba(0, 0, 0, 0.1);
+}
